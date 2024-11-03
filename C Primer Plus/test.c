@@ -6,8 +6,6 @@
 int main(){
     short a=-A;
     int b=336;
-    printf("%c\n",b);
-    printf("%hd\n",a);
-    printf("%hu\n",a);
+   printf("Hello World!\n");
     return 0;
 }
