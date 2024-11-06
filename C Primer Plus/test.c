@@ -6,11 +6,11 @@
 #include <stdio.h>
 
 int main() {
-    char buffer[100];
-    printf("请输入一个字符串: ");
-    scanf("%*s"); // 读取字符串，但不存储
-    printf("请输入一个字符串并存储: ");
-    scanf("%s", buffer); // 读取字符串并存储
-    printf("存储的字符串是: %s\n", buffer);
+    FILE *p;
+    p=fopen("myword.txt","a+");
+    char a=getc(p);
+    putc('h',p);
+    fprintf(p,"hahahahahahahahah");
+    fclose(p);
     return 0;
 }
