@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/hahaha/project",
-      "program": "/home/hahaha/project/build/Debug/outDebug",
+      "cwd": "/home/hahaha/work/project/leetcode",
+      "program": "/home/hahaha/work/project/leetcode/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
