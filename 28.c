@@ -1,4 +1,5 @@
 // 暴力求解
+#include <stdatomic.h>
 int strStr(char* haystack, char* needle) {
     for(int i=0;i<strlen(haystack);i++){
         if(haystack[i]==needle[0]){
