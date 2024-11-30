@@ -12,9 +12,9 @@ bool repeatedSubstringPattern(char* s) {
         }
         arr[m]=n;
     }
-    int a=0;
+    bool a=false;
     if(arr[len-1]){
-        a=len%(len-arr[len-1])==0?1:0;
+        a=len%(len-arr[len-1])==0?true:false;
     }
     free(arr);
     return a;
